@@ -4,7 +4,6 @@ body {
 }
 
 
-
 #leftBlank {
     background-color: #fff;
     color: #fff;
@@ -19,7 +18,14 @@ body {
     
 }
 
+input {
+    width: 400px;
+}
 
+textarea {
+    width: 400px;
+    height: 200px;
+}
 
 #myName {
     background-color: #4aaaa5;
