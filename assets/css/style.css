@@ -1,0 +1,100 @@
+body {
+    background-image: url(../images/background.png);
+    
+}
+
+
+
+#leftBlank {
+    background-color: #fff;
+    color: #fff;
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #666;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+#myName {
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 16%;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+    top: 0;
+    padding: 30px;
+}
+
+#middleBlank {
+    background-color: #fff;
+    color: #fff;
+    width: 33.33%;
+    float: left;
+}
+
+#Links {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    right: 300px;
+    padding: 30px;
+    top: 0;
+
+}
+
+#rightBlank {
+    background-color: #fff;
+    color: #fff;
+    width: 16.66%;
+    float: left;
+}
+
+#aboutMeHeader {
+    color: #4aaaa5;
+}
+
+#image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#content {
+    background-color: #fff;
+    width: 75%;
+    margin-left: 80px;
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    float: left;
+}
+
+#centerParagraphs {  
+}
+
+.footer {
+    background-color: #666;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+    
+
