@@ -1,6 +1,6 @@
 body {
     background-image: url(../images/background.png);
-    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
@@ -22,27 +22,46 @@ input {
     width: 400px;
 }
 
+a:link {
+    text-decoration: none;
+    color: #000
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #666;
+}
+
 textarea {
     width: 400px;
     height: 200px;
 }
 
+.nav {
+    background-color: #fff;
+    width: 100%;
+    height: 78px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #666;
+}
+
 #myName {
     background-color: #4aaaa5;
     color: #fff;
-    width: 16%;
+    width: 200px;
     text-align: center;
     position: absolute;
     left: 90px;
     top: 0;
     padding: 30px;
-}
-
-#middleBlank {
-    background-color: #fff;
-    color: #fff;
-    width: 33.33%;
-    float: left;
 }
 
 #Links {
@@ -56,36 +75,41 @@ textarea {
 
 }
 
-#rightBlank {
-    background-color: #fff;
-    color: #fff;
-    width: 16.66%;
-    float: left;
-}
 
 #aboutMeHeader {
     color: #4aaaa5;
 }
 
-#image {
+.image {
     float: left;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 200px;
 }
 
 #content {
     background-color: #fff;
-    width: 75%;
+    width: 960px;
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 120px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
-    float: left;
 }
 
-#centerParagraphs {  
+p {
+    float: none;
+}
+
+
+
+.submitbutton {
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 100px;
+    text-align: center;
 }
 
 .footer {
